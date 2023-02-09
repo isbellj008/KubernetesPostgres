@@ -1,4 +1,3 @@
-#!/bin/zsh
 kubectl delete svc postgres-np
 kubectl delete deploy postgres
 kubectl delete secret postgres-secrets

@@ -12,8 +12,7 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-     path: "/Users/iaincox/Development/K8-Postgress-Config/data"
-#     path: "/data/postgresql"
+     path: "/run/desktop/mnt/host/c/temp/data"
 ---
 kind: PersistentVolumeClaim
 apiVersion: v1
